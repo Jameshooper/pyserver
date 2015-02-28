@@ -1,0 +1,14 @@
+$def with (form, title)
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+    <head>
+        <title>$title</title>
+        <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    </head> 
+    <body>
+        <br />
+        <form class="form" method="post"> 
+        $:form.render()
+        </form>
+    </body>  
+</html>
